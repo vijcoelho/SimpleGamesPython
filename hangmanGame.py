@@ -1,5 +1,6 @@
 import random as rd
 
+# THIS CODE IS NOT FINISHED YET
 def write_a_string():
     global word
     with open("C:/Users/u23623/Documents/GitHub/SimpleGamesPython/hangman.txt", "a") as txt:
