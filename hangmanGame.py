@@ -2,15 +2,13 @@ import random as rd
  
 def write_a_word(): 
     global word
-    word = "macarrao"
+    word = "padaria"
 
 def main():
-    global word
     for letter in word:
         print("_", end=" ")
 
 def verification():
-    global anwser
     anwser = ["_"] * len(word)
     for i in range(6):
         chance = input("\nPut a letter: ")
