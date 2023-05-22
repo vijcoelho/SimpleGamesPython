@@ -2,7 +2,7 @@ import random as rd
  
 def write_a_word(): 
     global word
-    word = "padaria"
+    word = input("Put a word: ")
 
 def main():
     for letter in word:
