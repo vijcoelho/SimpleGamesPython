@@ -51,6 +51,6 @@ while(True):
     choose_player()
     choose_computer()
     verification()
-    stop = (input("\tIf u wanna stop this game type it 0: "))
+    stop = (input("\tIf u wanna stop this game type it 0, or <ENTER> to continue: "))
     if stop == "0":
         break
