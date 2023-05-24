@@ -31,19 +31,19 @@ def verification():
         print("\n\tIts a DRAW.😞😞")
     elif start == 1:
         if computer_turn == 2:
-            print("\nComputer WIN!!😑😑")
+            print("\nComputer WON!!😑😑")
         elif computer_turn == 3:
-            print("\nYou WIN!!😄😄")
+            print("\nYou WON!!😄😄")
     elif start == 2:
         if computer_turn == 1:
-            print("\nComputer WIN!!😑😑")
+            print("\nComputer WON!!😑😑")
         elif computer_turn == 3:
-            print("\nComputer WIN!!😑😑")
+            print("\nComputer WON!!😑😑")
     elif start == 3:
         if computer_turn == 1:
-            print("\nComputer WIN!!😑😑")
+            print("\nComputer WON!!😑😑")
         elif computer_turn == 2:
-            print("\nYou WIN!!😄😄")
+            print("\nYou WON!!😄😄")
 
 while(True):
     

@@ -15,7 +15,7 @@ def verify_winner_player():
     print("\nPlayer Total:", total_player)
     
     if total_player == 21:
-        print("\nYou win!")
+        print("\nYou won!")
     elif total_player < 21:
         print("\nYou lose!")
     else:
@@ -26,7 +26,7 @@ def verify_winner_computer():
     print("\nComputer Total:", total_computer)
     
     if total_computer == 21:
-        print("\nComputer win!")
+        print("\nComputer won!")
     elif total_computer < 21:
         print("\nComputer lose!")
     else:
