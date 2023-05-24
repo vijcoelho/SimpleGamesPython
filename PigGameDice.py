@@ -31,5 +31,5 @@ while(True):
     verification()
     stop = input("If you wanna stop the game enter 0, to continue to play just press <ENTER>: ")
     if stop == "0": 
-        print("👋👋👋")
+        print("\n\t👋👋👋")
         break
