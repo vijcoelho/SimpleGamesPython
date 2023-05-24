@@ -1,9 +1,9 @@
 import random
 
 def welcome():
-    print("\t##############################################")
-    print("\t#         Welcome To Pig Game Dice           #")
-    print("\t##############################################")
+    print("\t############################################")
+    print("\t#      🐷 Welcome To Pig Game Dice 🐷     #")
+    print("\t############################################")
 
 def start_game():
     global start
@@ -20,9 +20,9 @@ def turn():
     
 
 def verification():
-    if person_turn == computer_turn: print("\n\t Its a DRAW!!")
-    elif person_turn > computer_turn: print("\n\t You WON!!")
-    else: print("\n\t You LOSE!!")
+    if person_turn == computer_turn: print("\n\t Its a DRAW!!😑😑")
+    elif person_turn > computer_turn: print("\n\t You WON!!😄😄")
+    else: print("\n\t You LOSE!!😞😞")
 
 while(True):
     welcome()
@@ -30,4 +30,6 @@ while(True):
     turn()
     verification()
     stop = input("If you wanna stop the game enter 0, to continue to play just press <ENTER>: ")
-    if stop == "0": break
+    if stop == "0": 
+        print("👋👋👋")
+        break
