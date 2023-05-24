@@ -28,22 +28,22 @@ def choose_computer():
 
 def verification():
     if start == computer_turn:
-        print("\n\tIts a DRAW.")
+        print("\n\tIts a DRAW.😞😞")
     elif start == 1:
         if computer_turn == 2:
-            print("\nComputer WIN!!")
+            print("\nComputer WIN!!😑😑")
         elif computer_turn == 3:
-            print("\nComputer LOSE!!")
+            print("\nYou WIN!!😄😄")
     elif start == 2:
         if computer_turn == 1:
-            print("\nComputer WIN!!")
+            print("\nComputer WIN!!😑😑")
         elif computer_turn == 3:
-            print("\nComputer WIN!!")
+            print("\nComputer WIN!!😑😑")
     elif start == 3:
         if computer_turn == 1:
-            print("\nComputer WIN!!")
+            print("\nComputer WIN!!😑😑")
         elif computer_turn == 2:
-            print("\nComputer LOSE!!")
+            print("\nYou WIN!!😄😄")
 
 while(True):
     
