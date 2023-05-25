@@ -1,16 +1,6 @@
-palavra = input(":")
-for letra in palavra:
-    print("_", end=" ")
-
-print("\n")
-
-resposta = ["_"] * len(palavra)
-tentativa = input("Coloque uma letra:")
-for i, letra in enumerate(palavra):
-    if letra == tentativa:
-        resposta[i] = letra
-resultado = " ".join(resposta)
-print(resultado)
-
-        
-
+from BattleShip import Ship
+if __name__ == '__main__':
+    destroyer = Ship("Destroyer", 5, 2)
+    submarine = Ship("Submarine", 2, 3)
+    aircraft_carrier = Ship("Aircraft Carrier", 6, 1)
+    
