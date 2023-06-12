@@ -4,11 +4,11 @@ computer_vec = [ ]
 player_vec = [ ]
 
 def card():
-    player_vec.append(rd.randint(1,11))
+    player_vec.append(rd.randint(1,10))
     print(f"\n{player_vec}")
 
 def computer_card():
-    computer_vec.append(rd.randint(1,11))
+    computer_vec.append(rd.randint(1,10))
 
 def verify_winner_player():
     total_player = sum(player_vec)
